@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(36, 36, 36);
+}
+
+
+#navbar {
+  color: whitesmoke;
+  background-color: rgb(36, 36, 36);
+  font-size: 2rem;
+  padding: 2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#locationMarker {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  width: 100%;
+  height: 25rem;
+}
+
+#titleConsultar {
+  display: flex;
+  justify-content: center;
+}
+
+#optionsBtn {
+  display: flex;
+  justify-content: center;
+}
+
+
+#divConsultar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#consultar {
+  margin-top: 5px;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  color: rgb(24, 24, 24);
+}
+
+#consultar:hover{
+  color: whitesmoke;
+  background-color: rgb(24, 24, 24);
+  transition:.6s ease;
+}
+
+#inputCep {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 2px;
+  color: rgb(24, 24, 24);
+}
+
+#inputCep:hover{
+  color: whitesmoke;
+  background-color: rgb(24, 24, 24);
+  transition:.6s ease;
+}
+
+
+#subTitle {
+  display: flex;
+  justify-content: center;
+}
+
+#imgLocation {
+  margin-left: 3rem;
+  width: 400px;
+  align-content: center;
+}
