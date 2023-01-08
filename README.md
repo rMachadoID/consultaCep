@@ -1,4 +1,4 @@
-# consultaCep
+# Consulta CEP
 Me desafiando para criar uma tela que faz consulta de CEP utilizando a api "apicep".
 
 ### Figma do projeto 
